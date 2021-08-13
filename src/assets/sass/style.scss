@@ -1,0 +1,16 @@
+@import "./vars.scss";
+@import "./fonts.scss";
+
+
+/* Default styles */
+body {
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Components */
