@@ -1,0 +1,18 @@
+.section-header {
+    padding: 230px 0 150px;
+    margin: 0 auto;
+    max-width: 760px;
+    text-align: center;
+
+    h3 {
+        margin-bottom: 30px;
+
+        font-size: 24px;
+        color: $pink;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 60px;
+    }
+}

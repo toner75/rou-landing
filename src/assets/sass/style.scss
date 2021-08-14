@@ -5,7 +5,11 @@
 body {
     margin: 0;
     max-width: 1920px;
-    
+
+    font-family: $overpass;
+    font-weight: 800;
+    color: $black;
+
     h1,h2,h3,h4,h5,h6 {
         margin: 0;
     }
@@ -23,9 +27,12 @@ body {
 }
 
 /* Components */
-@import "./components/navbar.scss";
-@import "./components/logo.scss";
+@import "./components/buttons.scss";
 @import "./components/icons.scss";
 @import "./components/header.scss";
+@import "./components/navbar.scss";
+@import "./components/logo.scss";
 @import "./components/text-block.scss";
-@import "./components/buttons.scss";
+@import "./components/intro.scss";
+@import "./components/section-header.scss";
+@import "./components/card.scss";

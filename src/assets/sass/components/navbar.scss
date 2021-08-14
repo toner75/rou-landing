@@ -15,11 +15,11 @@
 .navbar__link {
     margin-right: 30px;
 
-    font-family: $overpass;
+    
     font-weight: 400;
     font-size: 20px;
     text-decoration: none;
-    color: $black;
+    
 
 
     &:hover {
@@ -30,7 +30,7 @@
         padding: 10px 30px;
 
         font-size: 18px;
-        font-weight: 800;
+        
         line-height: 1.2;
 
         border: solid 2px $pink;

@@ -1,0 +1,9 @@
+.intro {
+    background: url('../img/bg/2.jpg') top/cover no-repeat;
+}
+
+.intro__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
