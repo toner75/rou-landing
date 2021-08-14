@@ -1,0 +1,21 @@
+.text-block {
+    max-width: 570px;
+}
+
+.text-block__header {
+    font-family: $overpass;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 1.2;
+    color: $black;
+
+    
+}
+
+.text-block__text {
+    font-family: $roboto;
+    font-size: 30px;
+    color: $gray;
+
+    margin: 60px 0;
+}

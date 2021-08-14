@@ -123,8 +123,8 @@ gulp.task("watch", () => {
 
     gulp.watch("./src/index.html", gulp.parallel("html-task"));
     gulp.watch("src/assets/sass/**/*.scss", gulp.parallel("css-task"));
-    gulp.watch("./src/assets/*.*", gulp.parallel("copy-assets"));
-    gulp.watch("src/assets/img/**/*.*");
+    gulp.watch("./src/assets/*.*", gulp.parallel("image-task"));
+    gulp.watch("src/assets/img/**/*.*", gulp.parallel("copy-assets"));
     gulp.watch("./src/assets/fonts/**/*.*", gulp.parallel("fonts-task"));
     gulp.watch("./src/js/**/*.js", gulp.parallel("js-task"));
 });
