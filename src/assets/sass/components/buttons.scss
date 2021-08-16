@@ -10,7 +10,7 @@
     transition: all ease-out 0.2s;
 
     &:hover {
-        background: darken($pink, 10%) ;
+        background: darken($pink, 10%);
     }
 
     a {
@@ -18,6 +18,27 @@
         line-height: 1.2;
         color: #fff;
         text-decoration: none;
+    }
+
+    &--clear {
+        padding: 20px 50px;
+
+        border: solid 2px $pink;
+        background: none;
+
+        a {
+            font-size: 18px;
+            color: $black;
+            transition: all ease-out 0.2s;
+
+        }
+
+        &:hover {
+            background: none;
+            a {
+                color: $pink;
+            }
+        }
     }
     
 }

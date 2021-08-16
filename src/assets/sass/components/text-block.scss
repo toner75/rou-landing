@@ -9,6 +9,10 @@
     &--about {
         font-size: 60px;
     }
+
+    &--portfolio {
+        font-size: 42px;
+    }
 }
 
 .text-block__text {
@@ -21,5 +25,27 @@
     &--about {
         font-size: 24px;
         margin: 30px 0 50px;
+    }
+
+    &--portfolio {
+        font-size: 20px;
+        margin: 30px 0 50px;
+    }
+}
+
+.text-block__supheader {
+    font-size: 24px;
+    margin-bottom: 15px;
+
+    &.item-1 {
+        color: #fe6686;
+    }
+
+    &.item-2 {
+        color: #54d6a1;
+    }
+
+    &.item-3 {
+        color: #fe9a3f;
     }
 }
