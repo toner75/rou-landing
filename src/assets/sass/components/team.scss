@@ -1,0 +1,28 @@
+.team__content {
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.team__card {
+    img {
+        max-width: 100%;
+    }
+    
+    h3 {
+        font-size: 24px;
+        margin: 30px 0 15px;
+    }
+
+    h4 {
+        font-family: $roboto;
+        font-weight: 400;
+        font-size: 18px;
+        color: #adb0ba;
+    }
+
+    &:nth-child(even) {
+        margin-top: 70px;
+    }
+}

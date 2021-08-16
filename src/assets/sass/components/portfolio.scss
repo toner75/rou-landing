@@ -22,9 +22,12 @@
     
 
     a {
+        color: $black;
         font-size: 18px;
         text-decoration: none;
         position: relative;
+
+        transition: color ease-out 0.2s;
         
         &::before {
             content:"";
@@ -39,8 +42,14 @@
             left: 0;
         }
 
+        &:hover {
+            color: $pink;
+        }
+
         
     }
+
+    
     
     
 }
