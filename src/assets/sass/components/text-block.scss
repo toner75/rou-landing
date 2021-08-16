@@ -3,13 +3,12 @@
 }
 
 .text-block__header {
-    
-    
     font-size: 90px;
     line-height: 1.2;
-    
 
-    
+    &--about {
+        font-size: 60px;
+    }
 }
 
 .text-block__text {
@@ -18,4 +17,9 @@
     color: $gray;
 
     margin: 60px 0;
+
+    &--about {
+        font-size: 24px;
+        margin: 30px 0 50px;
+    }
 }

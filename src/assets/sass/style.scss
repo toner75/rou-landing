@@ -1,10 +1,13 @@
+@import "./normalize.scss";
 @import "./vars.scss";
 @import "./fonts.scss";
+
 
 /* Default styles */
 body {
     margin: 0;
     max-width: 1920px;
+    background: url('../img/bg/bg-full.jpg') top no-repeat;
 
     font-family: $overpass;
     font-weight: 800;
@@ -36,3 +39,6 @@ body {
 @import "./components/intro.scss";
 @import "./components/section-header.scss";
 @import "./components/card.scss";
+@import "./components/about.scss";
+@import "./components/service.scss";
+

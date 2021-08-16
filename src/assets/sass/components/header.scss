@@ -1,23 +1,17 @@
-.header {
-    background: url('../img/bg/1.jpg') top/cover no-repeat;
-}
-
 .header__content {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 210px;
+    margin-bottom: 210px;
 
     position: relative;
 
     img {
         max-width: 100%;
 
-        @media(min-width: 1920px) {
+        @media (min-width: 1920px) {
             position: absolute;
             top: 0;
             right: -300px;
         }
-
-        
     }
 }
