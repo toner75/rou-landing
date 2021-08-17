@@ -1,5 +1,6 @@
 .text-block {
     max-width: 570px;
+
 }
 
 .text-block__header {
@@ -13,11 +14,16 @@
     &--portfolio {
         font-size: 42px;
     }
+
+    &--blog {
+        font-size: 24px;
+    }
 }
 
 .text-block__text {
     font-family: $roboto;
     font-size: 30px;
+    font-weight: 400;
     color: $gray;
 
     margin: 60px 0;
@@ -31,11 +37,16 @@
         font-size: 20px;
         margin: 30px 0 50px;
     }
+
 }
 
 .text-block__supheader {
     font-size: 24px;
     margin-bottom: 15px;
+
+    &--blog {
+        font-size: 18px;
+    }
 
     &.item-1 {
         color: #fe6686;
