@@ -12,6 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
         autoplayButtonOutput: false,
         swipeAngle: true,
         gutter: 15,
-        navPosition: 'bottom'
+        navPosition: 'top'
       });
 });
