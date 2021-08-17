@@ -28,6 +28,7 @@
     "webpack-stream": "^6.1.2"
   },
   "dependencies": {
-    "imagemin-pngquant": "^9.0.2"
+    "imagemin-pngquant": "^9.0.2",
+    "tiny-slider": "^2.9.3"
   }
 }
