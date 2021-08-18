@@ -34,3 +34,10 @@
     }
 }
 
+@media(max-width: $tablets) {
+    .section-header {
+        padding: 180px 0 100px;
+
+    }
+}
+

@@ -1,6 +1,5 @@
 .header {
     margin-bottom: 210px;
-
 }
 
 .header__content {
@@ -20,8 +19,50 @@
     }
 }
 
-@media(max-width: $tablets) {
+@media (max-width: $tablets) {
+    .header {
+        margin-bottom: 110px;
+    }
     .header__content {
         padding-top: 170px;
+        display: block;
+
+        .text-block {
+            margin-bottom: 60px;
+
+            h1 {
+                font-size: 60px;
+            }
+        }
+    }
+}
+
+@media (max-width: $phone-big) {
+    .header__content {
+        padding-top: 130px;
+        .text-block {
+            h1 {
+                font-size: 45px;
+            }
+
+            .text-block__text {
+                margin: 40px 0;
+                font-size: 24px;
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: $iphone-x) {
+    .header__content {
+        .text-block {
+            h1 {
+                font-size: 30px;
+            }
+        }
     }
 }

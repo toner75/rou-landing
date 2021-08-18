@@ -9,8 +9,10 @@ html {
 body {
     margin: 0;
     max-width: 1920px;
-    background: url("../img/bg/bg-full.jpg") top no-repeat;
-
+    background-image: url("../img/bg/bg-full.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: auto;
     font-family: $overpass;
     font-weight: 800;
     color: $black;
@@ -23,13 +25,17 @@ body {
     h6 {
         margin: 0;
     }
-
-    
 }
 
 .container {
     max-width: 1170px;
     margin: 0 auto;
+}
+
+@media (max-width: $tablets) {
+    .container {
+        padding: 0 30px;
+    }
 }
 
 .hidden {
