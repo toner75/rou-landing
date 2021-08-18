@@ -2,18 +2,22 @@
 @import "./vars.scss";
 @import "./fonts.scss";
 
-
 /* Default styles */
 body {
     margin: 0;
     max-width: 1920px;
-    background: url('../img/bg/bg-full.jpg') top no-repeat;
+    background: url("../img/bg/bg-full.jpg") top no-repeat;
 
     font-family: $overpass;
     font-weight: 800;
     color: $black;
 
-    h1,h2,h3,h4,h5,h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         margin: 0;
     }
 }
@@ -21,6 +25,10 @@ body {
 .container {
     max-width: 1170px;
     margin: 0 auto;
+}
+
+.hidden {
+    display: none;
 }
 
 *,
