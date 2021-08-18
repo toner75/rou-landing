@@ -1,10 +1,14 @@
-.intro {
-    margin-bottom: 220px;
 
-}
 
 .intro__cards {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media(max-width: $tablets) {
+    .intro__cards {
+        flex-direction: column;
+        justify-content: center;
+    }
 }

@@ -1,3 +1,6 @@
+.about {
+    margin-top: 100px;
+}
 
 .about__content {
     display: flex;
@@ -18,5 +21,16 @@
 
     @media (max-width: 1900px) {
         position: static;
+    }
+}
+
+@media(max-width: $tablets) {
+    .about__content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about__img {
+        margin-top: 60px;
     }
 }

@@ -11,8 +11,8 @@ body {
     max-width: 1920px;
     background-image: url("../img/bg/bg-full.jpg");
     background-repeat: no-repeat;
-    background-position: left top;
-    background-size: auto;
+    background-position: 0 0;
+    background-clip: content-box;
     font-family: $overpass;
     font-weight: 800;
     color: $black;

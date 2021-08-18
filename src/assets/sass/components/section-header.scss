@@ -1,6 +1,5 @@
 .section-header {
-    padding: 230px 0 150px;
-    margin: 0 auto;
+    margin: 200px auto 130px;
     max-width: 760px;
     text-align: center;
 
@@ -18,9 +17,7 @@
     }
 
     &--service {
-        padding: 200px 0 150px;
-        margin: 0 0 0 auto;
-
+        margin: 100px 0 130px auto;
         text-align: right;
     }
 
@@ -35,8 +32,21 @@
 }
 
 @media(max-width: $tablets) {
+    
+}
+
+@media(max-width: $phone-big) {
     .section-header {
-        padding: 180px 0 100px;
+
+        h3 {
+            font-size: 18px;
+        }
+
+        h2 {
+            font-size: 30px;
+        
+        }
+
 
     }
 }
