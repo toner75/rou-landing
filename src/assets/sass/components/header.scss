@@ -19,3 +19,9 @@
         }
     }
 }
+
+@media(max-width: $tablets) {
+    .header__content {
+        padding-top: 170px;
+    }
+}

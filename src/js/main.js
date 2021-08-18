@@ -1,6 +1,8 @@
 "use strict";
 import { tns } from "../../node_modules/tiny-slider/src/tiny-slider";
-document.addEventListener('DOMContentLoaded', () => {
+import burger from "./component/burger-menu";
+
+document.addEventListener("DOMContentLoaded", () => {
     tns({
         container: ".my-slider",
         controls: false,
@@ -12,6 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
         autoplayButtonOutput: false,
         swipeAngle: true,
         gutter: 15,
-        navPosition: 'top'
-      });
+        navPosition: "top",
+    });
+
+    burger();
+
+    
 });

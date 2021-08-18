@@ -3,6 +3,9 @@
 @import "./fonts.scss";
 
 /* Default styles */
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     max-width: 1920px;
@@ -20,6 +23,8 @@ body {
     h6 {
         margin: 0;
     }
+
+    
 }
 
 .container {
@@ -42,6 +47,7 @@ body {
 @import "./components/icons.scss";
 @import "./components/header.scss";
 @import "./components/navbar.scss";
+@import "./components/burger-menu/burger-menu.scss";
 @import "./components/logo.scss";
 @import "./components/text-block.scss";
 @import "./components/intro.scss";

@@ -5,7 +5,10 @@
 
     padding-top: 60px;
     margin-bottom: 170px;
+    
 }
+
+
 
 .navbar__links {
     display: flex;
@@ -45,4 +48,27 @@
         }
     }
 
+}
+
+@media(max-width: $tablets) {
+    .burger-menu {
+        display: flex;
+    }
+
+    .navbar {
+        width: 100%;
+        margin: 0;
+        padding: 30px;
+
+        position: fixed;
+        z-index: 10;
+
+        background: #ebeafa;
+        align-items: flex-start;
+    }
+    .navbar__links {
+        display: none;
+    }
+
+    
 }
