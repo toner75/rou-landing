@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         autoplayTimeout: 5000,
         autoplayButtonOutput: false,
         swipeAngle: true,
-        gutter: 15,
+        gutter: 300,
         navPosition: "top",
     });
 

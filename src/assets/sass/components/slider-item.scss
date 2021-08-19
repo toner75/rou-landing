@@ -9,6 +9,10 @@
 
 .slider-item__text-block {
     max-width: 560px;
+
+    img {
+        display: none;
+    }
 }
 
 .slider-item__supheader {
@@ -40,6 +44,7 @@
         margin-left: 15px;
 
         font-family: $roboto;
+        font-weight: 400;
         font-size: 18px;
         color: #adb0ba;
     }
@@ -51,3 +56,40 @@
         background: #332e98;
     }
 }
+
+@media (max-width: $tablets) {
+    .slider-item {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            display: none;
+        }
+    }
+
+    .slider-item__text-block {
+        img {
+            display: block;
+        }
+    }
+}
+
+@media (max-width: $phone-big) {
+    .slider-item__header {
+        font-size: 36px;
+    }
+
+    
+
+
+}
+
+@media (max-width: $iphone-x) {
+    .slider-item__quote {
+        font-size: 21px;
+
+    }
+}
+
+
