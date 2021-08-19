@@ -1,6 +1,3 @@
-
-
-
 .portfolio__item {
     display: flex;
     justify-content: space-between;
@@ -12,6 +9,44 @@
 
     img {
         max-width: 100%;
+    }
+
+    &:nth-child(2) {
+        img {
+            &:first-child {
+                display: none;
+            }
+        }
+        
+    }
+}
+
+@media(max-width: $tablets) {
+    .portfolio__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 90px;
+
+        img {
+            margin-bottom: 60px;
+        }
+
+        &:nth-child(2) {
+            img {
+                &:first-child {
+                    display: block;
+                }
+
+                &:last-child {
+                    display: none;
+                }
+            }
+            
+        }
+    
+        
     }
 }
 
