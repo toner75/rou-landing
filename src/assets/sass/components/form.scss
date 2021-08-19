@@ -5,7 +5,7 @@
 
     h3 {
         margin-bottom: 30px;
-    
+
         font-size: 42px;
     }
 
@@ -15,9 +15,8 @@
     }
 }
 
-.form__input, textarea {
-    
-
+.form__input,
+textarea {
     padding: 20px;
     margin-bottom: 30px;
 
@@ -39,10 +38,9 @@
     &:focus {
         background-color: darken(#fff, 2%);
     }
-
 }
 
-@media(max-width: $tablets) {
+@media (max-width: $tablets) {
     .form {
         h3 {
             font-size: 36px;
@@ -50,11 +48,10 @@
     }
 }
 
-@media(max-width: $phone-big) {
+@media (max-width: $phone-big) {
     .form {
         h3 {
             font-size: 30px;
         }
     }
 }
-

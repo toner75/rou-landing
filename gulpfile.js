@@ -5,6 +5,8 @@ const webpack = require("webpack-stream");
 const browsersync = require("browser-sync");
 const del = require("del");
 
+const htmlmin = require('gulp-htmlmin');
+
 const sass = require("gulp-sass")(require("sass"));
 const postcss = require("gulp-postcss");
 const autoprefixer = require("autoprefixer");
@@ -20,6 +22,7 @@ gulp.task("html-task", () => {
     return gulp
         .src("./src/index.html")
         .pipe(plumber())
+        .pipe(htmlmin({ collapseWhitespace: true }))
         .pipe(gulp.dest(dist))
         .pipe(browsersync.stream());
 });
@@ -41,7 +44,7 @@ gulp.task("js-task", () => {
         .pipe(plumber())
         .pipe(
             webpack({
-                mode: "development",
+                mode: "production",
                 output: {
                     filename: "script.js",
                 },
@@ -148,40 +151,6 @@ gulp.task(
     )
 );
 
-gulp.task("build-prod-js", () => {
-    return gulp
-        .src("./src/js/main.js")
-        .pipe(
-            webpack({
-                mode: "production",
-                output: {
-                    filename: "script.js",
-                },
-                module: {
-                    rules: [
-                        {
-                            test: /\.m?js$/,
-                            exclude: /(node_modules|bower_components)/,
-                            use: {
-                                loader: "babel-loader",
-                                options: {
-                                    presets: [
-                                        [
-                                            "@babel/preset-env",
-                                            {
-                                                corejs: 3,
-                                                useBuiltIns: "usage",
-                                            },
-                                        ],
-                                    ],
-                                },
-                            },
-                        },
-                    ],
-                },
-            })
-        )
-        .pipe(gulp.dest(dist));
-});
+
 
 gulp.task("default", gulp.parallel("watch", "build"));

@@ -4,7 +4,6 @@
 .team__content {
     display: flex;
     justify-content: space-between;
-    
 }
 
 .team__card {
@@ -29,14 +28,13 @@
     }
 }
 
-@media(max-width: $tablets) {
+@media (max-width: $tablets) {
     .team {
-        background: url('../img/bg/mobile/bg_06.jpg') top left/cover no-repeat;
+        background: url("../img/bg/mobile/bg_06.jpg") top left/cover no-repeat;
     }
     .team__content {
         flex-wrap: wrap;
         justify-content: space-around;
-        
     }
 
     .team__card {

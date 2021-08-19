@@ -20,13 +20,12 @@
                 display: none;
             }
         }
-        
     }
 }
 
-@media(max-width: $tablets) {
+@media (max-width: $tablets) {
     .portfolio {
-        background: url('../img/bg/mobile/bg_05.jpg') top left/cover no-repeat;
+        background: url("../img/bg/mobile/bg_05.jpg") top left/cover no-repeat;
     }
     .portfolio__item {
         display: flex;
@@ -49,10 +48,6 @@
                     display: none;
                 }
             }
-            
         }
-    
-        
     }
 }
-

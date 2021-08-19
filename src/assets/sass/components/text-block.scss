@@ -59,6 +59,16 @@
     }
 }
 
+@media (max-width: $tablets) {
+    .text-block__header {
+        font-size: 60px;
+
+        &--portfolio {
+            font-size: 40px;
+        }
+    }
+}
+
 @media (max-width: $phone-big) {
     .text-block__header {
         &--about {
@@ -66,13 +76,14 @@
         }
 
         &--portfolio {
-            font-size: 36px;
+            font-size: 35px;
         }
     }
 }
 
 @media (max-width: $iphone-x) {
     .text-block__header {
+        font-size: 36px;
         &--about {
             font-size: 36px;
         }

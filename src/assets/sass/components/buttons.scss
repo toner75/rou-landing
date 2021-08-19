@@ -34,7 +34,6 @@
             font-size: 18px;
             color: $black;
             transition: all ease-out 0.2s;
-
         }
 
         &:hover {
@@ -44,10 +43,9 @@
             }
         }
     }
-    
 }
 
-@media(max-width: $phone-big) {
+@media (max-width: $phone-big) {
     .btn {
         width: 100%;
         padding: 20px 55px;

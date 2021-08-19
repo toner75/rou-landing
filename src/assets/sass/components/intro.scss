@@ -8,9 +8,9 @@
     align-items: center;
 }
 
-@media(max-width: $tablets) {
+@media (max-width: $tablets) {
     .intro {
-        background: url('../img/bg/mobile/bg_02.jpg') top left/cover no-repeat;
+        background: url("../img/bg/mobile/bg_02.jpg") top left/cover no-repeat;
     }
     .intro__cards {
         flex-direction: column;

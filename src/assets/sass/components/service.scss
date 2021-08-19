@@ -5,7 +5,6 @@
 .service-cards {
     display: flex;
     justify-content: space-between;
-
 }
 
 .service-cards__group {
@@ -28,15 +27,13 @@
     &.gr-3 {
         margin-top: 180px;
     }
-
-    
 }
 
-@media(max-width: $tablets) {
+@media (max-width: $tablets) {
     .service {
-        background: url('../img/bg/mobile/bg_04.jpg') top left/cover no-repeat;
+        background: url("../img/bg/mobile/bg_04.jpg") top left/cover no-repeat;
     }
-    
+
     .service-cards {
         flex-direction: column;
         justify-content: center;
@@ -58,16 +55,14 @@
         &.gr-2 {
             margin-top: 0;
         }
-    
+
         &.gr-3 {
             margin-top: 0;
         }
-    
-        
     }
 }
 
-@media(max-width: $phone-big) {
+@media (max-width: $phone-big) {
     .service-cards__group {
         display: flex;
         flex-direction: column;

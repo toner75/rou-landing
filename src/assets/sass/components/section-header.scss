@@ -33,23 +33,48 @@
     }
 }
 
-@media(max-width: $tablets) {
-    
+@media (max-width: $tablets) {
+    .section-header {
+        padding: 100px 0 100px;
+
+        &--blog {
+            display: block;
+
+            text-align: center;
+        }
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 21px;
+    }
 }
 
-@media(max-width: $phone-big) {
+@media (max-width: $phone-big) {
     .section-header {
+        font-size: 45px;
+
+        h2 {
+            font-size: 35px;
+        }
 
         h3 {
             font-size: 18px;
         }
-
-        h2 {
-            font-size: 30px;
-        
-        }
-
-
     }
 }
 
+@media (max-width: $iphone-x) {
+    .section-header {
+        h2 {
+            font-size: 30px;
+        }
+
+        h3 {
+            font-size: 16px;
+        }
+    }
+}

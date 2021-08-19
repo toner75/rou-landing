@@ -25,7 +25,6 @@
         &--3 {
             border: solid 6px #f2d5ba;
         }
-
     }
 
     &--service {
@@ -34,7 +33,6 @@
         padding: 0 40px;
         border-radius: 24px;
     }
-
 }
 
 .card__img {
@@ -68,22 +66,20 @@
     font-size: 20px;
 }
 
-@media(max-width: $tablets) {
+@media (max-width: $tablets) {
     .card {
-    
         &--intro {
             margin: 0 0 30px;
             &:last-child {
                 margin-bottom: 0;
             }
-    
-            padding: 0 50px;
+
+            padding: 0 30px;
         }
 
         &--service {
             padding: 0 20px;
+            border: 1px solid #b3bed1;
         }
-    
-    
     }
 }

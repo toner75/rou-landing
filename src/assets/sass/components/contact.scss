@@ -30,7 +30,7 @@
 .contact__data {
     max-width: 200px;
     h4 {
-        font-size: 21px;
+        font-size: 24px;
         margin-bottom: 3px;
     }
 
@@ -77,7 +77,7 @@
 
 @media (max-width: $tablets) {
     .contact {
-        background: url('../img/bg/mobile/bg_08.jpg') top left/cover no-repeat;
+        background: url("../img/bg/mobile/bg_08.jpg") top left/cover no-repeat;
     }
     .contact__block {
         flex-direction: column;
@@ -102,4 +102,3 @@
         }
     }
 }
-

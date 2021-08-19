@@ -32,7 +32,7 @@
 
 @media (max-width: $tablets) {
     .about {
-        background: url('../img/bg/mobile/bg_03.jpg') top left/cover no-repeat;
+        background: url("../img/bg/mobile/bg_03.jpg") top left/cover no-repeat;
     }
     .about__content {
         flex-direction: column;
