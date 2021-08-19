@@ -42,3 +42,19 @@
 
 }
 
+@media(max-width: $tablets) {
+    .form {
+        h3 {
+            font-size: 36px;
+        }
+    }
+}
+
+@media(max-width: $phone-big) {
+    .form {
+        h3 {
+            font-size: 30px;
+        }
+    }
+}
+

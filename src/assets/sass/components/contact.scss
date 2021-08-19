@@ -72,3 +72,31 @@
         transform: translate3d(-50%, -50%, 0);
     }
 }
+
+@media(max-width: $tablets) {
+    .contact__block {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact__info {
+        margin-top: 60px;
+    }
+
+    
+}
+
+@media(max-width: $phone-big) {
+    .contact__text {
+        font-size: 21px;
+    }
+
+    .contact__data {
+        h4 {
+            font-size: 18px;
+            margin-bottom: 3px;
+        }
+        
+    }
+}
