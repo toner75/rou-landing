@@ -1,5 +1,6 @@
 .header {
     padding-bottom: 215px;
+    
 }
 .header__content {
     display: flex;
@@ -19,6 +20,9 @@
 }
 
 @media (max-width: $tablets) {
+    .header {
+        background: url('../img/bg/mobile/bg_01.jpg') top left/cover no-repeat;
+    }
     .header__content {
         display: block;
         padding-top: 120px;

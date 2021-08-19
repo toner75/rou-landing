@@ -104,6 +104,8 @@
 
 @media(max-width:$tablets) {
     .blog {
+        background: url('../img/bg/mobile/bg_09.jpg') top left/cover no-repeat;
+
         .section-header {
             .custom__link {
                 display: none;

@@ -7,6 +7,12 @@
     justify-content: space-between;
 
     position: relative;
+
+    .text-block {
+        .about__img {
+            display: none;
+        }
+    }
 }
 
 .about__img {
@@ -24,15 +30,27 @@
     }
 }
 
-@media(max-width: $tablets) {
+@media (max-width: $tablets) {
+    .about {
+        background: url('../img/bg/mobile/bg_03.jpg') top left/cover no-repeat;
+    }
     .about__content {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+
+        .about__img {
+            display: none;
+        }
+
+        .text-block {
+            .about__img {
+                display: block;
+            }
+        }
     }
 
     .about__img {
         margin-top: 60px;
     }
 }
-
-

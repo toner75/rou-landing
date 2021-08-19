@@ -10,10 +10,11 @@ document.addEventListener("DOMContentLoaded", () => {
         speed: 1000,
         autoplay: true,
         autoplayHoverPause: false,
-        autoplayTimeout: 5000,
+        autoplayTimeout: 4000,
         autoplayButtonOutput: false,
-        swipeAngle: true,
+        swipeAngle: 15,
         gutter: 300,
+        touch: true,
         navPosition: "top",
     });
 

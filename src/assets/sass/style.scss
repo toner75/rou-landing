@@ -31,9 +31,14 @@ body {
 }
 
 @media (max-width: $tablets) {
+    body {
+        background: none;
+    }
+    
     .container {
         padding: 0 30px;
     }
+    
 }
 
 .hidden {

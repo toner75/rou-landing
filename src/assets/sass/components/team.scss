@@ -30,6 +30,9 @@
 }
 
 @media(max-width: $tablets) {
+    .team {
+        background: url('../img/bg/mobile/bg_06.jpg') top left/cover no-repeat;
+    }
     .team__content {
         flex-wrap: wrap;
         justify-content: space-around;

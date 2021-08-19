@@ -33,6 +33,9 @@
 }
 
 @media(max-width: $tablets) {
+    .service {
+        background: url('../img/bg/mobile/bg_04.jpg') top left/cover no-repeat;
+    }
     
     .service-cards {
         flex-direction: column;
