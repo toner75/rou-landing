@@ -26,3 +26,19 @@
         margin-top: 70px;
     }
 }
+
+@media(max-width: $tablets) {
+    .team__content {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+
+    .team__card {
+        margin-bottom: 60px;
+
+        &:nth-child(even) {
+            margin-top: 0;
+        }
+    }
+}
