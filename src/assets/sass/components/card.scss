@@ -50,6 +50,10 @@
 
     &--service {
         max-width: 285px;
+
+        img {
+            padding-bottom: 30px;
+        }
     }
 }
 
@@ -74,6 +78,10 @@
             }
     
             padding: 0 50px;
+        }
+
+        &--service {
+            padding: 0 20px;
         }
     
     

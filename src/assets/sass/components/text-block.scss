@@ -1,6 +1,5 @@
 .text-block {
     max-width: 570px;
-
 }
 
 .text-block__header {
@@ -37,7 +36,6 @@
         font-size: 20px;
         margin: 30px 0 50px;
     }
-
 }
 
 .text-block__supheader {
@@ -58,5 +56,21 @@
 
     &.item-3 {
         color: #fe9a3f;
+    }
+}
+
+@media (max-width: $phone-big) {
+    .text-block__header {
+        &--about {
+            font-size: 45px;
+        }
+    }
+}
+
+@media (max-width: $iphone-x) {
+    .text-block__header {
+        &--about {
+            font-size: 36px;
+        }
     }
 }

@@ -28,3 +28,50 @@
 
     
 }
+
+@media(max-width: $tablets) {
+    
+    .service-cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-cards__group {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        a {
+            &:first-child {
+                margin-right: 30px;
+            }
+            margin-bottom: 30px;
+        }
+
+        &.gr-2 {
+            margin-top: 0;
+        }
+    
+        &.gr-3 {
+            margin-top: 0;
+        }
+    
+        
+    }
+}
+
+@media(max-width: $phone-big) {
+    .service-cards__group {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        a {
+            &:first-child {
+                margin-right: 0px;
+            }
+            margin-bottom: 30px;
+        }
+    }
+}
