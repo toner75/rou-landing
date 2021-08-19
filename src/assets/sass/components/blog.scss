@@ -1,6 +1,5 @@
 .blog {
     height: 830px;
-
 }
 
 .blog__content {
@@ -11,7 +10,12 @@
         text-decoration: none;
         color: inherit;
     }
+
+    .custom__link {
+        display: none;
+    }
 }
+
 .blog__item {
     max-width: 370px;
     min-height: 400px;
@@ -64,6 +68,8 @@
 }
 
 .blog__social {
+    padding-top: 15px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -95,3 +101,43 @@
         margin-right: 10px;
     }
 }
+
+@media(max-width:$tablets) {
+    .blog {
+        .section-header {
+            .custom__link {
+                display: none;
+            }
+        }
+    }
+
+    .blog__item {
+        padding: 30px 20px 30px;
+    }
+
+    .blog__content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            margin-bottom: 60px;
+        }
+
+        .custom__link {
+            display: block;
+        }
+    }
+}
+
+@media(max-width:$iphone-x) {
+    .blog__author {
+        span {
+            font-size: 16px;
+        }
+    }
+}
+
+
+
+
