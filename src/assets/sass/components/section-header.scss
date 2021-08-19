@@ -1,5 +1,6 @@
 .section-header {
-    margin: 200px auto 130px;
+    margin: 0 auto;
+    padding: 200px 0 130px;
     max-width: 760px;
     text-align: center;
 
@@ -17,7 +18,8 @@
     }
 
     &--service {
-        margin: 100px 0 130px auto;
+        padding: 100px 0 130px;
+        margin: 0 0 0 auto;
         text-align: right;
     }
 

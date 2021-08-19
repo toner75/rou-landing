@@ -9,10 +9,8 @@ html {
 body {
     margin: 0;
     max-width: 1920px;
-    background-image: url("../img/bg/bg-full.jpg");
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-clip: content-box;
+    background: url("../img/bg/bg-full.jpg") top center no-repeat;
+    
     font-family: $overpass;
     font-weight: 800;
     color: $black;

@@ -1,5 +1,5 @@
 .footer {
-    margin-top: 1000px;
+    padding-top: 160px;
 }
 
 .footer__content {
@@ -71,7 +71,7 @@
 }
 
 .footer__bottom {
-    margin: 170px 0 30px;
+    padding: 60px 0 30px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -101,9 +101,11 @@
 }
 
 @media (max-width: $tablets) {
+    .footer {
+        padding: 0;
+    }
     .footer__content {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 60px;
+        display: none;
     }
 
     .footer__bottom {
@@ -119,11 +121,6 @@
 }
 
 @media (max-width: $phone-big) {
-    .footer__content {
-        grid-template-columns:  1fr;
-        gap: 30px;
-    }
-
     .footer__bottom {
         display: flex;
         flex-direction: column;
