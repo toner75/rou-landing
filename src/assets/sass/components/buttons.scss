@@ -10,18 +10,12 @@
     font-size: 24px;
     line-height: 1.2;
     color: #fff;
+    text-decoration: none;
 
     transition: all ease-out 0.2s;
 
     &:hover {
         background: darken($pink, 10%);
-    }
-
-    a {
-        font-size: 24px;
-        line-height: 1.2;
-        color: #fff;
-        text-decoration: none;
     }
 
     &--clear {
@@ -30,17 +24,13 @@
         border: solid 2px $pink;
         background: none;
 
-        a {
-            font-size: 18px;
-            color: $black;
-            transition: all ease-out 0.2s;
-        }
+        font-size: 18px;
+        color: $black;
+        transition: all ease-out 0.2s;
 
         &:hover {
             background: none;
-            a {
-                color: $pink;
-            }
+            color: $pink;
         }
     }
 }
